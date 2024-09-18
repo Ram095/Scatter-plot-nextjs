@@ -124,7 +124,7 @@ const ScatterPlot: FC = () => {
       },
       tooltip: {
         callbacks: {
-          label: function (context: any) {
+          label: function (context: { raw: { x: string; y: string } }) {
             const label = context.raw;
             return `Team: ${label.x}, Score: ${label.y}`;
           },
