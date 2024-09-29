@@ -74,7 +74,7 @@ const ScatterPlot: FC = () => {
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
 
-  const options = {
+  const options: any = {
     responsive: true,
     scales: {
       x: {
@@ -115,8 +115,8 @@ const ScatterPlot: FC = () => {
       },
     },
     animation: {
-      duration: 1000, // Animation duration in milliseconds
-      easing: "easeOutQuart", // Easing function for the animation
+      duration: 1000,
+      easing: "easeOutQuart",
     },
     plugins: {
       legend: {
