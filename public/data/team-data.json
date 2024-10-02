@@ -1,0 +1,131 @@
+{
+    "datasets": [
+      {
+        "Name": "Happiness Index",
+        "Quarter": "Apr to July 2024",
+        "values": {
+          "Iteration 1": [
+            { "x": "Calvi Aurora", "y": 7 },
+            { "x": "Exact-FG", "y": 8 },
+            { "x": "Brisker", "y": 7.5 },
+            { "x": "SDWorx", "y": 8.2 },
+            { "x": "PeakZi", "y": 6.9 },
+            { "x": "AIMMS", "y": 8.9 },
+            { "x": "Exact kalopsia", "y": 7.5 },
+            { "x": "SDWorx Devops", "y": 7.9 },
+            { "x": "Eneco Datahub", "y": 8.1 },
+            { "x": "Exact Titans", "y": 8.5 }
+          ],
+          "Iteration 2": [
+            { "x": "Calvi Aurora", "y": 7.5 },
+            { "x": "Exact-FG", "y": 8.5 },
+            { "x": "Brisker", "y": 8 },
+            { "x": "SDWorx", "y": 8.3 },
+            { "x": "PeakZi", "y": 7.1 },
+            { "x": "AIMMS", "y": 9 },
+            { "x": "Exact kalopsia", "y": 7.8 },
+            { "x": "SDWorx Devops", "y": 8.1 },
+            { "x": "Eneco Datahub", "y": 8.4 },
+            { "x": "Exact Titans", "y": 9 }
+          ],
+          "Iteration 3": [
+            { "x": "Calvi Aurora", "y": 8 },
+            { "x": "Exact-FG", "y": 9 },
+            { "x": "Brisker", "y": 8.5 },
+            { "x": "SDWorx", "y": 8.6 },
+            { "x": "PeakZi", "y": 7.4 },
+            { "x": "AIMMS", "y": 9.5 },
+            { "x": "Exact kalopsia", "y": 8 },
+            { "x": "SDWorx Devops", "y": 8.5 },
+            { "x": "Eneco Datahub", "y": 8.8 },
+            { "x": "Exact Titans", "y": 9.5 }
+          ]
+        }
+      },
+      {
+        "Name": "Enthusiasm Index",
+        "Quarter": "Apr to July 2024",
+        "values": {
+          "Iteration 1": [
+            { "x": "Calvi Aurora", "y": 7.5 },
+            { "x": "Exact-FG", "y": 8.2 },
+            { "x": "Brisker", "y": 7.8 },
+            { "x": "SDWorx", "y": 8.4 },
+            { "x": "PeakZi", "y": 7.2 },
+            { "x": "AIMMS", "y": 9.2 },
+            { "x": "Exact kalopsia", "y": 8 },
+            { "x": "SDWorx Devops", "y": 8.3 },
+            { "x": "Eneco Datahub", "y": 8.6 },
+            { "x": "Exact Titans", "y": 9.1 }
+          ],
+          "Iteration 2": [
+            { "x": "Calvi Aurora", "y": 7.8 },
+            { "x": "Exact-FG", "y": 8.5 },
+            { "x": "Brisker", "y": 8.2 },
+            { "x": "SDWorx", "y": 8.6 },
+            { "x": "PeakZi", "y": 7.4 },
+            { "x": "AIMMS", "y": 9.5 },
+            { "x": "Exact kalopsia", "y": 8.5 },
+            { "x": "SDWorx Devops", "y": 8.4 },
+            { "x": "Eneco Datahub", "y": 8.8 },
+            { "x": "Exact Titans", "y": 9.2 }
+          ],
+          "Iteration 3": [
+            { "x": "Calvi Aurora", "y": 8.1 },
+            { "x": "Exact-FG", "y": 9.1 },
+            { "x": "Brisker", "y": 8.6 },
+            { "x": "SDWorx", "y": 8.9 },
+            { "x": "PeakZi", "y": 7.7 },
+            { "x": "AIMMS", "y": 9.8 },
+            { "x": "Exact kalopsia", "y": 8.8 },
+            { "x": "SDWorx Devops", "y": 8.7 },
+            { "x": "Eneco Datahub", "y": 9 },
+            { "x": "Exact Titans", "y": 9.5 }
+          ]
+        }
+      },
+      {
+        "Name": "Product Ownership",
+        "Quarter": "Apr to July 2024",
+        "values": {
+          "Iteration 1": [
+            { "x": "Calvi Aurora", "y": 0 },
+            { "x": "Exact-FG", "y": 8.2 },
+            { "x": "Brisker", "y": 7.8 },
+            { "x": "SDWorx", "y": 8.4 },
+            { "x": "PeakZi", "y": 7.2 },
+            { "x": "AIMMS", "y": 9.2 },
+            { "x": "Exact kalopsia", "y": 8 },
+            { "x": "SDWorx Devops", "y": 8.3 },
+            { "x": "Eneco Datahub", "y": 8.6 },
+            { "x": "Exact Titans", "y": 9.1 }
+          ],
+          "Iteration 2": [
+            { "x": "Calvi Aurora", "y": 7.8 },
+            { "x": "Exact-FG", "y": 8.5 },
+            { "x": "Brisker", "y": 8.2 },
+            { "x": "SDWorx", "y": 8.6 },
+            { "x": "PeakZi", "y": 7.4 },
+            { "x": "AIMMS", "y": 9.5 },
+            { "x": "Exact kalopsia", "y": 8.5 },
+            { "x": "SDWorx Devops", "y": 8.4 },
+            { "x": "Eneco Datahub", "y": 8.8 },
+            { "x": "Exact Titans", "y": 9.2 }
+          ],
+          "Iteration 3": [
+            { "x": "Calvi Aurora", "y": 8.1 },
+            { "x": "Exact-FG", "y": 9.1 },
+            { "x": "Brisker", "y": 8.6 },
+            { "x": "SDWorx", "y": 8.9 },
+            { "x": "PeakZi", "y": 7.7 },
+            { "x": "AIMMS", "y": 9.8 },
+            { "x": "Exact kalopsia", "y": 8.8 },
+            { "x": "SDWorx Devops", "y": 8.7 },
+            { "x": "Eneco Datahub", "y": 9 },
+            { "x": "Exact Titans", "y": 9.5 }
+          ]
+        }
+      }
+    ]
+  }
+  
