@@ -23,6 +23,7 @@ const ScatterPlot: FC<ScatterPlotProps> = ({ excelData, onUpdate }) => {
   const [currentIndexName, setCurrentIndexName] = useState("");
   const [currentIterationName, setCurrentIterationName] = useState("");
   const [currentQuarter, setCurrentQuarter] = useState("");
+  const [chartOptions, setChartOptions] = useState<any>({});
 
   useEffect(() => {
     if (excelData.length === 0) return;
@@ -38,16 +39,67 @@ const ScatterPlot: FC<ScatterPlotProps> = ({ excelData, onUpdate }) => {
           const currentIteration = iterationKeys[index];
           const datasets = [
             {
-              label: `${currentData.Name} - ${currentIteration}`,
+              label: `${currentData.name} - ${currentIteration}`,
               data: currentData.values[currentIteration],
               backgroundColor: "#77FCB2",
               pointRadius: 8,
             },
           ];
           setData({ datasets });
-          setCurrentIndexName(currentData.Name);
+          setCurrentIndexName(currentData.name);
           setCurrentIterationName(currentIteration);
-          setCurrentQuarter(currentData.Quarter);
+          setCurrentQuarter(currentData.quarter); // Update chart options based on the JSON properties
+
+          setChartOptions({
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                offset: true,
+                type: "category",
+                title: {
+                  display: false,
+                  text: "Teams",
+                  color: "#ffffff",
+                },
+                ticks: {
+                  color: "#ffffff",
+                },
+              },
+              y: {
+                offset: true,
+                min: currentData.min,
+                max: currentData.max,
+                title: {
+                  display: false,
+                  text: "Scores",
+                  color: "#ffffff",
+                },
+                ticks: {
+                  stepSize: currentData.step,
+                  color: "#ffffff",
+                },
+              },
+            },
+            animation: {
+              duration: 1000,
+              easing: "easeOutQuart",
+            },
+            plugins: {
+              legend: {
+                display: false,
+              },
+              tooltip: {
+                callbacks: {
+                  label: function (context: { raw: { x: string; y: string } }) {
+                    const label = context.raw;
+                    return `Team: ${label.x}, Score: ${label.y}`;
+                  },
+                },
+              },
+            },
+          });
+
           onUpdate({
             teams: currentData.values[currentIteration],
             uniqueNames: currentData.uniqueNames,
@@ -67,62 +119,13 @@ const ScatterPlot: FC<ScatterPlotProps> = ({ excelData, onUpdate }) => {
     updateData();
     intervalId = setInterval(() => {
       updateData();
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(intervalId);
   }, [excelData]);
 
-  const options: any = {
-    responsive: true,
-    maintainAspectRatio: false,
-    scales: {
-      x: {
-        offset: true,
-        type: "category",
-        title: {
-          display: false,
-          text: "Teams",
-          color: "#ffffff",
-        },
-        ticks: {
-          color: "#ffffff",
-        },
-      },
-      y: {
-        min: 5,
-        max: 10,
-        title: {
-          display: false,
-          text: "Scores",
-          color: "#ffffff",
-        },
-        ticks: {
-          stepSize: 1,
-          color: "#ffffff",
-        },
-      },
-    },
-    animation: {
-      duration: 1000,
-      easing: "easeOutQuart",
-    },
-    plugins: {
-      legend: {
-        display: false,
-      },
-      tooltip: {
-        callbacks: {
-          label: function (context: { raw: { x: string; y: string } }) {
-            const label = context.raw;
-            return `Team: ${label.x}, Score: ${label.y}`;
-          },
-        },
-      },
-    },
-  };
-
   return (
-    <div className="w-full h-96 flex flex-col justify-between items-center">
+    <div className="w-full h-[600px] flex flex-col justify-between items-center">
       <div className="mb-8 w-full flex flex-col items-start">
         <motion.h1
           className="text-4xl mb-4"
@@ -132,13 +135,15 @@ const ScatterPlot: FC<ScatterPlotProps> = ({ excelData, onUpdate }) => {
           exit={{ y: 20, opacity: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          {currentIndexName} {currentQuarter ? `(${currentQuarter})` : ""}
+          {currentIndexName}
+          {currentQuarter ? `(${currentQuarter})` : ""}
         </motion.h1>
         <p className="text-2xl text-[#5B5B64]">{currentIterationName}</p>
       </div>
-
-      <div className="w-full h-full flex justify-center items-center">
-        <Scatter data={data} options={options} />
+      <div className="w-full h-full flex items-center justify-center">
+        <div className="w-full h-full">
+          <Scatter data={data} options={chartOptions} />
+        </div>
       </div>
     </div>
   );

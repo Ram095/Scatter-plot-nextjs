@@ -209,12 +209,12 @@ export default function GraphCarousal({ uniqueNames }: CarouselProps) {
                   <div className="flex items-center space-x-2">
                     <span className="h-2 w-2 bg-teal-400 rounded-full"></span>
                     <span>Last Month</span>
-                    <span className="text-white ml-4">9.0</span>
+                    <span className="text-white ml-4"></span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <span className="h-2 w-2 bg-pink-400 rounded-full"></span>
                     <span>This Month</span>
-                    <span className="text-white ml-4">8.2</span>
+                    <span className="text-white ml-4"> </span>
                   </div>
                 </div>
               </div>

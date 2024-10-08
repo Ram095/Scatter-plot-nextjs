@@ -24,7 +24,7 @@ export default function Home() {
 
   const uniqueNames =
     excelData.length > 0
-      ? excelData.map((dataset: { Name: any }) => dataset.Name)
+      ? excelData.map((dataset: { name: any }) => dataset.name)
       : [];
 
   const updateCurrentData = (data: any) => {

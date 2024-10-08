@@ -1,131 +1,569 @@
 {
-    "datasets": [
-      {
-        "Name": "Happiness Index",
-        "Quarter": "Apr to July 2024",
-        "values": {
-          "Iteration 1": [
-            { "x": "Calvi Aurora", "y": 7 },
-            { "x": "Exact-FG", "y": 8 },
-            { "x": "Brisker", "y": 7.5 },
-            { "x": "SDWorx", "y": 8.2 },
-            { "x": "PeakZi", "y": 6.9 },
-            { "x": "AIMMS", "y": 8.9 },
-            { "x": "Exact kalopsia", "y": 7.5 },
-            { "x": "SDWorx Devops", "y": 7.9 },
-            { "x": "Eneco Datahub", "y": 8.1 },
-            { "x": "Exact Titans", "y": 8.5 }
-          ],
-          "Iteration 2": [
-            { "x": "Calvi Aurora", "y": 7.5 },
-            { "x": "Exact-FG", "y": 8.5 },
-            { "x": "Brisker", "y": 8 },
-            { "x": "SDWorx", "y": 8.3 },
-            { "x": "PeakZi", "y": 7.1 },
-            { "x": "AIMMS", "y": 9 },
-            { "x": "Exact kalopsia", "y": 7.8 },
-            { "x": "SDWorx Devops", "y": 8.1 },
-            { "x": "Eneco Datahub", "y": 8.4 },
-            { "x": "Exact Titans", "y": 9 }
-          ],
-          "Iteration 3": [
-            { "x": "Calvi Aurora", "y": 8 },
-            { "x": "Exact-FG", "y": 9 },
-            { "x": "Brisker", "y": 8.5 },
-            { "x": "SDWorx", "y": 8.6 },
-            { "x": "PeakZi", "y": 7.4 },
-            { "x": "AIMMS", "y": 9.5 },
-            { "x": "Exact kalopsia", "y": 8 },
-            { "x": "SDWorx Devops", "y": 8.5 },
-            { "x": "Eneco Datahub", "y": 8.8 },
-            { "x": "Exact Titans", "y": 9.5 }
-          ]
-        }
-      },
-      {
-        "Name": "Enthusiasm Index",
-        "Quarter": "Apr to July 2024",
-        "values": {
-          "Iteration 1": [
-            { "x": "Calvi Aurora", "y": 7.5 },
-            { "x": "Exact-FG", "y": 8.2 },
-            { "x": "Brisker", "y": 7.8 },
-            { "x": "SDWorx", "y": 8.4 },
-            { "x": "PeakZi", "y": 7.2 },
-            { "x": "AIMMS", "y": 9.2 },
-            { "x": "Exact kalopsia", "y": 8 },
-            { "x": "SDWorx Devops", "y": 8.3 },
-            { "x": "Eneco Datahub", "y": 8.6 },
-            { "x": "Exact Titans", "y": 9.1 }
-          ],
-          "Iteration 2": [
-            { "x": "Calvi Aurora", "y": 7.8 },
-            { "x": "Exact-FG", "y": 8.5 },
-            { "x": "Brisker", "y": 8.2 },
-            { "x": "SDWorx", "y": 8.6 },
-            { "x": "PeakZi", "y": 7.4 },
-            { "x": "AIMMS", "y": 9.5 },
-            { "x": "Exact kalopsia", "y": 8.5 },
-            { "x": "SDWorx Devops", "y": 8.4 },
-            { "x": "Eneco Datahub", "y": 8.8 },
-            { "x": "Exact Titans", "y": 9.2 }
-          ],
-          "Iteration 3": [
-            { "x": "Calvi Aurora", "y": 8.1 },
-            { "x": "Exact-FG", "y": 9.1 },
-            { "x": "Brisker", "y": 8.6 },
-            { "x": "SDWorx", "y": 8.9 },
-            { "x": "PeakZi", "y": 7.7 },
-            { "x": "AIMMS", "y": 9.8 },
-            { "x": "Exact kalopsia", "y": 8.8 },
-            { "x": "SDWorx Devops", "y": 8.7 },
-            { "x": "Eneco Datahub", "y": 9 },
-            { "x": "Exact Titans", "y": 9.5 }
-          ]
-        }
-      },
-      {
-        "Name": "Product Ownership",
-        "Quarter": "Apr to July 2024",
-        "values": {
-          "Iteration 1": [
-            { "x": "Calvi Aurora", "y": 0 },
-            { "x": "Exact-FG", "y": 8.2 },
-            { "x": "Brisker", "y": 7.8 },
-            { "x": "SDWorx", "y": 8.4 },
-            { "x": "PeakZi", "y": 7.2 },
-            { "x": "AIMMS", "y": 9.2 },
-            { "x": "Exact kalopsia", "y": 8 },
-            { "x": "SDWorx Devops", "y": 8.3 },
-            { "x": "Eneco Datahub", "y": 8.6 },
-            { "x": "Exact Titans", "y": 9.1 }
-          ],
-          "Iteration 2": [
-            { "x": "Calvi Aurora", "y": 7.8 },
-            { "x": "Exact-FG", "y": 8.5 },
-            { "x": "Brisker", "y": 8.2 },
-            { "x": "SDWorx", "y": 8.6 },
-            { "x": "PeakZi", "y": 7.4 },
-            { "x": "AIMMS", "y": 9.5 },
-            { "x": "Exact kalopsia", "y": 8.5 },
-            { "x": "SDWorx Devops", "y": 8.4 },
-            { "x": "Eneco Datahub", "y": 8.8 },
-            { "x": "Exact Titans", "y": 9.2 }
-          ],
-          "Iteration 3": [
-            { "x": "Calvi Aurora", "y": 8.1 },
-            { "x": "Exact-FG", "y": 9.1 },
-            { "x": "Brisker", "y": 8.6 },
-            { "x": "SDWorx", "y": 8.9 },
-            { "x": "PeakZi", "y": 7.7 },
-            { "x": "AIMMS", "y": 9.8 },
-            { "x": "Exact kalopsia", "y": 8.8 },
-            { "x": "SDWorx Devops", "y": 8.7 },
-            { "x": "Eneco Datahub", "y": 9 },
-            { "x": "Exact Titans", "y": 9.5 }
-          ]
-        }
+  "datasets": [
+    {
+      "name": "Happiness Index",
+      "quarter": "Apr to July 2024",
+      "min": 0,
+      "max": 10,
+      "step": 2,
+      "values": {
+        "Iteration 1": [
+          { "x": "Calvi Aurora", "y": 7.6 },
+          { "x": "Exact-FG", "y": 9.8 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 2": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 9.6 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 3": [
+          { "x": "Calvi Aurora", "y": 8.1 },
+          { "x": "Exact-FG", "y": 9.2 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 4": [
+          { "x": "Calvi Aurora", "y": 7 },
+          { "x": "Exact-FG", "y": 9.2 },
+          { "x": "Brisker", "y": 8 },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 7 },
+          { "x": "SDWorx Finland - Dev", "y": 9 },
+          { "x": "SDWorx Finland - QA", "y": 8.5 },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 5": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 9.4 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": 8 },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 6": [
+          { "x": "Calvi Aurora", "y": 7 },
+          { "x": "Exact-FG", "y": 9.3 },
+          { "x": "Brisker", "y": 9 },
+          { "x": "PeakZi", "y": 7 },
+          { "x": "AIMMS", "y": 9 },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 7 },
+          { "x": "SDWorx Finland - Dev", "y": 9 },
+          { "x": "SDWorx Finland - QA", "y": 9 },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 7": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 9.6 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 8": [
+          { "x": "Calvi Aurora", "y": 7 },
+          { "x": "Exact-FG", "y": 9.2 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 6 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ]
       }
-    ]
-  }
-  
+    },
+    {
+      "name": "Team Enthusiasm",
+      "quarter": "Apr to July 2024",
+      "min": 0,
+      "max": 10,
+      "step": 2,
+      "values": {
+        "Iteration 1": [
+          { "x": "Calvi Aurora", "y": 7.6 },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 2": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 3": [
+          { "x": "Calvi Aurora", "y": 8.2 },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 8.5 }
+        ],
+        "Iteration 4": [
+          { "x": "Calvi Aurora", "y": 8.2 },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": 8 },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 7 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 5": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": 8 },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 10 }
+        ],
+        "Iteration 6": [
+          { "x": "Calvi Aurora", "y": 8.5 },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": 9 },
+          { "x": "PeakZi", "y": 8 },
+          { "x": "AIMMS", "y": 9 },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 7 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 9.4 }
+        ],
+        "Iteration 7": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 9.8 }
+        ],
+        "Iteration 8": [
+          { "x": "Calvi Aurora", "y": 8.5 },
+          { "x": "Exact-FG", "y": "-" },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 6 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ]
+      }
+    },
+    {
+      "name": "Product Ownership",
+      "quarter": "Apr to July 2024",
+      "min": 0,
+      "max": 10,
+      "step": 2,
+      "values": {
+        "Iteration 1": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 10 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 2": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 10 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 3": [
+          { "x": "Calvi Aurora", "y": 7.5 },
+          { "x": "Exact-FG", "y": 9.8 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 9.6 }
+        ],
+        "Iteration 4": [
+          { "x": "Calvi Aurora", "y": 7 },
+          { "x": "Exact-FG", "y": 9.8 },
+          { "x": "Brisker", "y": 9 },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 9.5 }
+        ],
+        "Iteration 5": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 9.8 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 8.6 }
+        ],
+        "Iteration 6": [
+          { "x": "Calvi Aurora", "y": 7 },
+          { "x": "Exact-FG", "y": 10 },
+          { "x": "Brisker", "y": 9 },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 7 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 10 }
+        ],
+        "Iteration 7": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 10 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 9.8 }
+        ],
+        "Iteration 8": [
+          { "x": "Calvi Aurora", "y": 7 },
+          { "x": "Exact-FG", "y": 10 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 7 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ]
+      }
+    },
+    {
+      "name": "Defects",
+      "quarter": "Apr to July 2024",
+      "min": 0,
+      "max": 10,
+      "step": 2,
+      "values": {
+        "Iteration 1": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 1 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 2": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 5 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 3": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 3 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 4": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 3 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 9.5 }
+        ],
+        "Iteration 5": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 7 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 6": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 3 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 2 }
+        ],
+        "Iteration 7": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 2 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 2 }
+        ],
+        "Iteration 8": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 2 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ]
+      }
+    },
+    {
+      "name": "Committed vs Delivered Stories",
+      "quarter": "Apr to July 2024",
+      "min": 0,
+      "max": 200,
+      "step": 40,
+      "values": {
+        "Iteration 1": [
+          { "x": "Calvi Aurora", "y": 112 },
+          { "x": "Exact-FG", "y": 123.5 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 2": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 108.5 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ],
+        "Iteration 3": [
+          { "x": "Calvi Aurora", "y": 106 },
+          { "x": "Exact-FG", "y": 109 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 100 }
+        ],
+        "Iteration 4": [
+          { "x": "Calvi Aurora", "y": 100 },
+          { "x": "Exact-FG", "y": 110.5 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 54 },
+          { "x": "SDWorx Finland - Dev", "y": 100 },
+          { "x": "SDWorx Finland - QA", "y": 100 },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 123.5 }
+        ],
+        "Iteration 5": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 103 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 86 }
+        ],
+        "Iteration 6": [
+          { "x": "Calvi Aurora", "y": 100 },
+          { "x": "Exact-FG", "y": 118 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": 88 },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 60 },
+          { "x": "SDWorx Finland - Dev", "y": 100 },
+          { "x": "SDWorx Finland - QA", "y": 100 },
+          { "x": "Eneco Datahub", "y": 140 },
+          { "x": "Exact Titans", "y": 97 }
+        ],
+        "Iteration 7": [
+          { "x": "Calvi Aurora", "y": "-" },
+          { "x": "Exact-FG", "y": 110 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": "-" },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": 92 }
+        ],
+        "Iteration 8": [
+          { "x": "Calvi Aurora", "y": 100 },
+          { "x": "Exact-FG", "y": 116 },
+          { "x": "Brisker", "y": "-" },
+          { "x": "PeakZi", "y": "-" },
+          { "x": "AIMMS", "y": "-" },
+          { "x": "Exact kalopsia", "y": "-" },
+          { "x": "SDWorx Devops", "y": 48 },
+          { "x": "SDWorx Finland - Dev", "y": "-" },
+          { "x": "SDWorx Finland - QA", "y": "-" },
+          { "x": "Eneco Datahub", "y": "-" },
+          { "x": "Exact Titans", "y": "-" }
+        ]
+      }
+    }
+  ]
+}
