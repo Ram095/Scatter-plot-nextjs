@@ -7,21 +7,39 @@ import ScoreCards from "./component/ScoreCards";
 export default function Home() {
   const [excelData, setExcelData] = useState<any[]>([]);
   const [currentData, setCurrentData] = useState<any>({});
-
+  const [siteId, setSiteId] = useState("");
+  const [driveId, setDriveId] = useState("");
   useEffect(() => {
-    const fetchExcelData = async () => {
+    const fetchSiteDriveId = async () => {
       try {
-        const response = await fetch("/data/team-data.json"); // Update this path
-        const data = await response.json();
-        setExcelData(data.datasets);
+        const res = await fetch("/api/get-site-drive-id");
+        const data = await res.json();
+        setSiteId(data.siteId);
+        setDriveId(data.driveId);
       } catch (error) {
-        console.error("Error fetching the dataset:", error);
+        console.error("Error fetching site or drive ID:", error);
       }
     };
-
-    fetchExcelData();
-  }, []);
-
+    const fetchFile = async () => {
+      if (siteId && driveId) {
+        try {
+          const res = await fetch(
+            `/api/fetch-file?siteId=${siteId}&driveId=${driveId}`
+          );
+          if (!res.ok) {
+            console.error("Failed to fetch file:", await res.text());
+            return;
+          }
+          const data = await res.json();
+          setExcelData(data.datasets);
+        } catch (error) {
+          console.error("Error fetching file:", error);
+        }
+      }
+    };
+    fetchSiteDriveId();
+    fetchFile();
+  }, [siteId, driveId]);
   const uniqueNames =
     excelData.length > 0
       ? excelData.map((dataset: { name: any }) => dataset.name)
@@ -30,7 +48,6 @@ export default function Home() {
   const updateCurrentData = (data: any) => {
     setCurrentData(data);
   };
-
   return (
     <div className="bg-black text-white min-h-screen flex flex-col justify-center items-center pt-2 pb-4 px-10">
       <div className="grid grid-cols-12 gap-8 w-full h-full">
@@ -41,7 +58,6 @@ export default function Home() {
           <ScoreCards teams={currentData.teams} />
         </div>
       </div>
-
       {uniqueNames && <GraphCarousal uniqueNames={uniqueNames} />}
     </div>
   );

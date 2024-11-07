@@ -1,7 +1,7 @@
 import React from "react";
 
 type CarouselProps = {
-  uniqueNames: string[]; // Change type to accept unique names
+  uniqueNames: string[];
 };
 
 export default function GraphCarousal({ uniqueNames }: CarouselProps) {
